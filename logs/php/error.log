@@ -1,0 +1,36 @@
+[31-Jul-2025 10:05:39 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\pc\Local Sites\safetysphere\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[31-Jul-2025 10:07:04 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\pc\Local Sites\safetysphere\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[31-Jul-2025 10:07:34 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\pc\Local Sites\safetysphere\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[06-Aug-2025 06:26:24 UTC] PHP Warning:  Undefined array key "add_ons" in C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[06-Aug-2025 06:26:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[06-Aug-2025 06:26:24 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21 and defined in C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php:30
+Stack trace:
+#0 C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status(NULL)
+#1 C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\classes\transformations-manager.php(57): Elementor\Modules\Home\Transformations\Filter_Plugins->transform(Array)
+#2 C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\api.php(25): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\api.php(19): Elementor\Modules\Home\API->transform_home_screen_data(Array)
+#4 C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\module.php(102): Elementor\Modules\Home\API->get_home_screen_items()
+#5 C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\module.php(64): Elementor\Modules\Home\Module->get_app_js_config()
+#6 C:\Users\pc\Local Sites\safetysphere\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts('')
+#7 C:\Users\pc\Local Sites\safetysphere\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\pc\Local Sites\safetysphere\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\pc\Local Sites\safetysphere\app\public\wp-admin\admin-header.php(144): do_action('admin_print_scr...')
+#10 C:\Users\pc\Local Sites\safetysphere\app\public\wp-admin\admin.php(240): require_once('C:\\Users\\pc\\Loc...')
+#11 {main}
+  thrown in C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 30
+[07-Aug-2025 00:16:51 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\pro-elements\modules\theme-builder\classes\conditions-manager.php on line 181
+[07-Aug-2025 00:16:51 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\pc\Local Sites\safetysphere\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[12-Aug-2025 07:06:25 UTC] There aren't users with empty `account_status`. Maybe some users were approved manually or deleted.
+[12-Aug-2025 09:34:26 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[15-Aug-2025 04:09:36 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Aug-2025 12:39:24 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Aug-2025 12:47:24 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Aug-2025 12:55:24 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Aug-2025 13:11:24 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Aug-2025 13:23:24 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Aug-2025 13:27:24 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Aug-2025 13:35:24 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Aug-2025 13:39:24 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Aug-2025 15:47:40 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[26-Aug-2025 13:48:19 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[26-Aug-2025 14:01:29 UTC] Cron unschedule event error for hook: dce_auto_save_tokens_status, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[]}
