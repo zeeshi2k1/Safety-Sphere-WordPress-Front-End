@@ -73,6 +73,10 @@ Ultimate Member
 
 Import demo data or configure manually.
 
+# Project on Behance with Demo video
+
+ **Link:** https://www.behance.net/gallery/233356265/SafetySphere-WordPress-with-AIML
+
 # 📷 Screenshots
 
 ## Landing Page
@@ -108,10 +112,10 @@ This project improved my skills in WordPress development, plugin customization, 
 
 ## 👤 Zeeshan Ahmed
 
-Portfolio: https://www.behance.net/gallery/233356265/SafetySphere-WordPress-with-AIML
+**Portfolio:** https://www.behance.net/Zeeshii2k1
 
-Email: workmail.zeeshan@gmail.com
+**Email:** workmail.zeeshan@gmail.com
 
-LinkedIn: : linkedin.com/in/zeeshan-ahmed-321399223
+**LinkedIn:** https://www.linkedin.com/in/zeeshan-ahmed-321399223
 
 
