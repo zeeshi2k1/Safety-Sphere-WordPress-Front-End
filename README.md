@@ -109,7 +109,9 @@ This project improved my skills in WordPress development, plugin customization, 
 ## 👤 Zeeshan Ahmed
 
 Portfolio: https://www.behance.net/gallery/233356265/SafetySphere-WordPress-with-AIML
+
 Email: workmail.zeeshan@gmail.com
+
 LinkedIn: : linkedin.com/in/zeeshan-ahmed-321399223
 
 
